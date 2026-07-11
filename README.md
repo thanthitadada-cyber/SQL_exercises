@@ -2,21 +2,25 @@
 คลังเก็บ Code และแบบฝึกหัดคำสั่ง SQL สำหรับการจัดการและวิเคราะห์ข้อมูล
 ### คำสั่ง SELECT ดึงเฉพาะบาง Column
 ```sql
-SELECT CustomerName,City FROM Customers;
+SELECT CustomerName,City FROM Customers;```
 **คำอธิบาย:**
 เลือก Column CustomerName,City จาก Customers Table ใช้เครื่องหมาย ; เพื่อบอกว่าจบคำสั่งที่ 1 แล้วนะ #SELECT Column1,Column2,... FROM Table_Name; 
 ### คำสั่ง SELECT * ดึงข้อมูลทั้งหมด
-SELECT * FROM Customers;  
+```sql
+SELECT * FROM Customers;```  
 **คำอธิบาย:**
 เลือก ทั้งหมด จาก Customers Table # SELECT STAR FROM Customers;
 ### คำสั่ง SELECT DISTINCT ดึงเฉพาะข้อมูลที่ไม่ซ้ำกันทั้งหมด 
-SELECT DISTINCT Country FROM Customers;
+```sql
+SELECT DISTINCT Country FROM Customers;```
 **คำอธิบาย:**
 เลือก ข้อมูลประเทศที่ไม่ซ้ำกันทั้งหมด จาก Customers Table
 ### คำสั่ง SELECT DISTINCT ดึงเฉพาะข้อมูลที่ไม่ซ้ำกัน ของ Column1,Column2,... FROM Table_Name;
-SELECT DISTINCT City,Address FROM Customers;
+```sql
+SELECT DISTINCT City,Address FROM Customers;```
 ### คำสั่ง SELECT DISTINCT สำหรับ MS Access:
+```sql
 SELECT Count(*) As DistinctCountries
-FROM (SELECT DISTINCT Country FROM Customers);
+FROM (SELECT DISTINCT Country FROM Customers);```
 **คำอธิบาย:**
 วงเล็บชั้นใน คือการเลือก ข้อมูลในColumn ประเทศที่ไม่ซ้ำกัน จาก Customers Table ชั้นนอก คือ นับข้อมูลจาก()ชั้นใน และตั้งชื่อColumn ผลลัพท์ใหม่ As DistinctCountries
