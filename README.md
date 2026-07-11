@@ -8,3 +8,9 @@ SELECT CustomerName,City FROM Customers; # SELECT Column1,Column2,... FROM Table
 SELECT * FROM Customers; # SELECT STAR FROM Customers; 
 **คำอธิบาย:**
 เลือก ทั้งหมด จาก Customers Table 
+### คำสั่ง SELECT DISTINCT ดึงเฉพาะข้อมูลที่ไม่ซ้ำกันทั้งหมด 
+SELECT DISTINCT Country FROM Customers;
+**คำอธิบาย:**
+เลือก ข้อมูลประเทศที่ไม่ซ้ำกันทั้งหมด จาก Customers Table
+### คำสั่ง SELECT DISTINCT ดึงเฉพาะข้อมูลที่ไม่ซ้ำกัน ของ Column1,Column2,... FROM Table_Name;
+SELECT DISTINCT City,Address FROM Customers;
