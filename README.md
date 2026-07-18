@@ -48,3 +48,13 @@ FROM (SELECT DISTINCT Country FROM Customers);
 ```
 
 ### คำสั่ง WHERE ดึงข้อมูลแบบมีเงื่อนไข (WHERE ใช้สำหรับกรองข้อมูล)
+
+`### คำสั่ง SELECT WHERE ดึงข้อมูลแบบมีเงื่อนไข`
+
+```sql
+SELECT * FROM Customers
+WHERE City = 'Berlin';
+
+**คำอธิบาย:**
+เลือกทั้งหมด จาก Table Customers กรอง Row City = Berlin เท่านั้น
+```
