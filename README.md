@@ -57,4 +57,7 @@ WHERE City = 'Berlin';
 
 **คำอธิบาย:**
 เลือกทั้งหมด จาก Table Customers กรอง Row City = Berlin เท่านั้น
+#SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
 ```
