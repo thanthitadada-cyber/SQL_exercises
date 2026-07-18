@@ -46,3 +46,5 @@ FROM (SELECT DISTINCT Country FROM Customers);
 วงเล็บชั้นใน คือการเลือก ข้อมูลในColumn ประเทศที่ไม่ซ้ำกัน จาก Customers Table
 ชั้นนอก คือ นับข้อมูลจาก()ชั้นใน และตั้งชื่อColumn ผลลัพท์ใหม่ As DistinctCountries
 ```
+
+### คำสั่ง WHERE
