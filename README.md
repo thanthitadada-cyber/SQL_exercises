@@ -1,7 +1,8 @@
 # SQL_exercises
 คลังเก็บ Code และแบบฝึกหัดคำสั่ง SQL สำหรับการจัดการและวิเคราะห์ข้อมูล
 
-### คำสั่ง SELECT ดึงเฉพาะบาง Column
+### คำสั่ง SELECT
+```text ### คำสั่ง SELECT ดึงเฉพาะบาง Column
 ```sql
 SELECT CustomerName,City FROM Customers;
 **คำอธิบาย:**
