@@ -56,8 +56,16 @@ SELECT * FROM Customers
 WHERE City = 'Berlin';
 
 **คำอธิบาย:**
-เลือกทั้งหมด จาก Table Customers กรอง Row City = Berlin เท่านั้น
+เลือกทั้งหมด จาก Table Customers กรอง City = Berlin เท่านั้น
 #SELECT column1, column2, ...
 FROM table_name
 WHERE condition;
+```
+
+```sql
+SELECT * FROM Customers
+WHERE CustomerID = 5;
+
+**คำอธิบาย:**
+เลือกทั้งหมด จาก Table Customers กรอง CustomerID = 5 เท่านั้น
 ```
