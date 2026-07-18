@@ -69,3 +69,11 @@ WHERE CustomerID = 5;
 **คำอธิบาย:**
 เลือกทั้งหมด จาก Table Customers กรอง CustomerID = 5 เท่านั้น
 ```
+
+```sql
+SELECT * FROM Customers
+WHERE CustomerID < 80;
+
+**คำอธิบาย:**
+เลือกทั้งหมด จาก Table Customers กรอง CustomerID น้อยกว่า 80 เท่านั้น
+```
