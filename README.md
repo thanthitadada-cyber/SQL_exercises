@@ -24,3 +24,9 @@ SELECT Count(*) As DistinctCountries
 FROM (SELECT DISTINCT Country FROM Customers);
 **คำอธิบาย:**
 วงเล็บชั้นใน คือการเลือก ข้อมูลในColumn ประเทศที่ไม่ซ้ำกัน จาก Customers Table ชั้นนอก คือ นับข้อมูลจาก()ชั้นใน และตั้งชื่อColumn ผลลัพท์ใหม่ As DistinctCountries
+### **คำสั่ง WHERE ดึงข้อมูลแบบมีเงื่อนไข (WHERE ใช้สำหรับกรองข้อมูล)**
+```sql
+SELECT * FROM Customers
+WHERE City = 'Berlin';
+**คำอธิบาย:**
+เลือกทั้งหมด จาก Table Customers กรอง Row City = Berlin เท่านั้น
