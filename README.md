@@ -49,7 +49,7 @@ FROM (SELECT DISTINCT Country FROM Customers);
 
 ### คำสั่ง WHERE ดึงข้อมูลแบบมีเงื่อนไข (WHERE ใช้สำหรับกรองข้อมูล)
 
-`### คำสั่ง SELECT WHERE ดึงข้อมูลแบบมีเงื่อนไข`
+`### คำสั่ง SELECT WHERE ดึงข้อมูลกรองเฉพาะเงื่อนไข`
 
 ```sql
 SELECT * FROM Customers
