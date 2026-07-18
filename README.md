@@ -28,3 +28,11 @@ SELECT DISTINCT Country FROM Customers;
 **คำอธิบาย:**
 เลือก ข้อมูลประเทศที่ไม่ซ้ำกันทั้งหมด จาก Customers Table
 ```
+`### คำสั่ง SELECT DISTINCT ดึงเฉพาะข้อมูลที่ไม่ซ้ำกัน ของ Column1,Column2,... FROM Table_Name;`
+
+```sql
+SELECT DISTINCT City,Address FROM Customers;
+
+**คำอธิบาย:**
+ดึงเฉพาะข้อมูลที่ไม่ซ้ำกัน ของ Column City,Address FROM Table Customers;
+```
