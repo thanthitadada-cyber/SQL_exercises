@@ -111,3 +111,11 @@ ORDER BY ProductName DESC;
 **คำอธิบาย:**
 เลือกทั้งหมด จาก Table Products เรียงลำดับ ProductName Column ตามตัวอักษร จาก Z-A
 ```
+
+```sql
+SELECT * FROM Customers
+ORDER BY Country, CustomerName;
+
+**คำอธิบาย:**
+เลือกทั้งหมด จาก Table Customers เรียงลำดับ Country, CustomerName Column ระบบจะเรียงลำดับตาม Country ก่อน หาก Country ซ้ำกัน ระบบจะเรียงตามชื่อ Customers
+```
