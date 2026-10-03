@@ -77,3 +77,11 @@ WHERE CustomerID < 80;
 **คำอธิบาย:**
 เลือกทั้งหมด จาก Table Customers กรอง CustomerID น้อยกว่า 80 เท่านั้น
 ```
+
+```sql
+SELECT * FROM Products
+ORDER BY Price;
+
+**คำอธิบาย:**
+เลือกทั้งหมด จาก Table Products เรียงลำดับ Price จากน้อยไปมาก
+```
