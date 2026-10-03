@@ -87,3 +87,11 @@ ORDER BY Price;
 **คำอธิบาย:**
 เลือกทั้งหมด จาก Table Products เรียงลำดับ Price จากน้อยไปมาก
 ```
+
+```sql
+SELECT * FROM Products
+ORDER BY Price DESC;
+
+**คำอธิบาย:**
+เลือกทั้งหมด จาก Table Products เรียงลำดับ Price จากมากไปน้อย
+```
