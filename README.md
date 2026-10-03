@@ -103,3 +103,11 @@ ORDER BY ProductName;
 **คำอธิบาย:**
 เลือกทั้งหมด จาก Table Products เรียงลำดับ ProductName Column ตามตัวอักษร จาก A-Z
 ```
+
+```sql
+SELECT * FROM Products
+ORDER BY ProductName DESC;
+
+**คำอธิบาย:**
+เลือกทั้งหมด จาก Table Products เรียงลำดับ ProductName Column ตามตัวอักษร จาก Z-A
+```
