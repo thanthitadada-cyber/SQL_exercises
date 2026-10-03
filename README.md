@@ -119,3 +119,11 @@ ORDER BY Country, CustomerName;
 **คำอธิบาย:**
 เลือกทั้งหมด จาก Table Customers เรียงลำดับ Country, CustomerName Column ระบบจะเรียงลำดับตาม Country ก่อน หาก Country ซ้ำกัน ระบบจะเรียงตามชื่อ Customers
 ```
+
+```sql
+SELECT * FROM Customers
+ORDER BY Country ASC, CustomerName DESC;
+
+**คำอธิบาย:**
+เลือกทั้งหมด จาก Table Customers เรียงลำดับ Country Column จากมากไปน้อย, CustomerName Column จากน้อยไปมาก ระบบจะเรียงลำดับตาม Country ก่อน หาก Country ซ้ำกัน ระบบจะเรียงตามชื่อ Customers
+```
