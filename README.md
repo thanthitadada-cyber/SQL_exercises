@@ -125,5 +125,5 @@ SELECT * FROM Customers
 ORDER BY Country ASC, CustomerName DESC;
 
 **คำอธิบาย:**
-เลือกทั้งหมด จาก Table Customers เรียงลำดับ Country Column จากมากไปน้อย, CustomerName Column จากน้อยไปมาก ระบบจะเรียงลำดับตาม Country ก่อน หาก Country ซ้ำกัน ระบบจะเรียงตามชื่อ Customers
+เลือกทั้งหมด จาก Table Customers เรียงลำดับ Country Column จากน้อยไปมาก, CustomerName Column จากมากไปน้อย ระบบจะเรียงลำดับตาม Country ก่อน หาก Country ซ้ำกัน ระบบจะเรียงตามชื่อ Customers
 ```
