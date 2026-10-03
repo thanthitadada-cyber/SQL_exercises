@@ -78,6 +78,8 @@ WHERE CustomerID < 80;
 เลือกทั้งหมด จาก Table Customers กรอง CustomerID น้อยกว่า 80 เท่านั้น
 ```
 
+### คำสั่ง ORDER BY ใช้เรียงลำดับชุดข้อมูลจาก น้อยไปมาก หรือ มากไปน้อย
+
 ```sql
 SELECT * FROM Products
 ORDER BY Price;
