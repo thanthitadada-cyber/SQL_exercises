@@ -127,3 +127,13 @@ ORDER BY Country ASC, CustomerName DESC;
 **คำอธิบาย:**
 เลือกทั้งหมด จาก Table Customers เรียงลำดับ Country Column จากน้อยไปมาก, CustomerName Column จากมากไปน้อย ระบบจะเรียงลำดับตาม Country ก่อน หาก Country ซ้ำกัน ระบบจะเรียงตามชื่อ Customers
 ```
+
+### คำสั่ง AND ใช้กรองข้อมูลที่มากกว่า 1 เงื่อนไข (เงื่อนไขทั้งหมดต้องเป็นจริง)
+
+```sql
+SELECT * FROM Customers
+WHERE Country = 'Mexico' AND CustomerName LIKE 'A%'
+
+**คำอธิบาย:**
+เลือกทั้งหมด จาก Table Customers ค้าหาประเทศ Mexico และ CustomerName อักษร A นำหน้า ('%A' = ลงท้ายด้วยตัวอักษร A, '%A%' = มีอักษร A เป็นส่วนประกอบ)
+```
