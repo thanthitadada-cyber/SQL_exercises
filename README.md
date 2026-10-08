@@ -132,8 +132,18 @@ ORDER BY Country ASC, CustomerName DESC;
 
 ```sql
 SELECT * FROM Customers
-WHERE Country = 'Mexico' AND CustomerName LIKE 'A%'
+WHERE Country = 'Mexico' AND CustomerName LIKE 'A%';
 
 **คำอธิบาย:**
-เลือกทั้งหมด จาก Table Customers ค้าหาประเทศ Mexico และ CustomerName อักษร A นำหน้า ('%A' = ลงท้ายด้วยตัวอักษร A, '%A%' = มีอักษร A เป็นส่วนประกอบ)
+เลือกทั้งหมด จาก Table Customers กรองประเทศ Mexico และ CustomerName อักษร A นำหน้า ('%A' = ลงท้ายด้วยตัวอักษร A, '%A%' = มีอักษร A เป็นส่วนประกอบ)
+```
+
+```sql
+SELECT * FROM Customers
+WHERE Country = 'Brazil'
+AND City = 'Rio de Janeiro'
+AND CustomerID > 50;
+
+**คำอธิบาย:**
+เลือกทั้งหมด จาก Table Customers กรอง Country = Brazil และ City = Rio de Janeiro และ CustomerID มากกว่า 50 
 ```
