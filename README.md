@@ -158,5 +158,5 @@ OR CustomerName LIKE 'T%');
 
 
 **คำอธิบาย:**
-เลือกทั้งหมด จาก Table Customers กรอง Country = Germany และ CustomerName = A นำหน้า หรือ CustomerName = T นำหน้า (ต้องใส่วงเล็บ ถ้าไม่ใส่ SQL จะแสดงผล ชื่อลูกค้าที่นำหน้าด้วยตัวอักษร A and T โดยไม่สนใจข้อมูลประเทศ Germany
+เลือกทั้งหมด จาก Table Customers กรอง Country = Germany และ CustomerName = A นำหน้า หรือ CustomerName = T นำหน้า (ต้องใส่วงเล็บ ถ้าไม่ใส่ SQL จะแสดงผล ชื่อลูกค้าที่นำหน้าด้วยตัวอักษร A and T โดยกรองข้อมูลประเทศแค่ Germany จะมีผลลัพท์ ประเทศอื่นปะปนมาด้วย
 ```
