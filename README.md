@@ -147,3 +147,16 @@ AND CustomerID > 50;
 **คำอธิบาย:**
 เลือกทั้งหมด จาก Table Customers กรอง Country = Brazil และ City = Rio de Janeiro และ CustomerID มากกว่า 50 
 ```
+
+## Combining AND and OR
+
+```sql
+SELECT * FROM Customers
+WHERE Country = 'Germany'
+AND (CustomerName LIKE 'A%'
+OR CustomerName LIKE 'T%');
+
+
+**คำอธิบาย:**
+เลือกทั้งหมด จาก Table Customers กรอง Country = Germany และ CustomerName = A นำหน้า หรือ CustomerName = T นำหน้า (ต้องใส่วงเล็บ ถ้าไม่ใส่ SQL จะแสดงผล ชื่อลูกค้าที่นำหน้าด้วยตัวอักษร A and T โดยไม่สนใจข้อมูลประเทศ Germany
+```
